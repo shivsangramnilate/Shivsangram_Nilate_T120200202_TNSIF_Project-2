@@ -1,0 +1,12 @@
+# Python virtual environment files
+venv/
+.venv/
+
+# Ignored files specific to Streamlit/local execution
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Temporarily ignoring the large model file (REQUIRED for initial commit)
+# You should upload a smaller model file later if needed, or upload to GitHub LFS
+backend_model/latest_model.pkl
